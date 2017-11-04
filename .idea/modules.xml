@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSS样式表/CSS样式表.iml" filepath="$PROJECT_DIR$/CSS样式表/CSS样式表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/First.iml" filepath="$PROJECT_DIR$/First.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MStudy/MStudy.iml" filepath="$PROJECT_DIR$/MStudy/MStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProject/MyProject.iml" filepath="$PROJECT_DIR$/MyProject/MyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyWork/MyWork.iml" filepath="$PROJECT_DIR$/MyWork/MyWork.iml" />
+    </modules>
+  </component>
+</project>

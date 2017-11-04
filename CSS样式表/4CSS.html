@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用动画</title>
+
+    <style type="text/css">
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        p:hover{
+            animation-duration: 1000ms;
+            animation-delay: 1000ms;
+            animation-name: kaopu;
+            animation-iteration-count: 5;
+        }
+        @keyframes kaopu {
+            from{
+                width: 200px;
+                height: 200px;
+                color: aqua;
+            }
+             to{
+                 width: 600px;
+                 height: 600px;
+                 background-color: lightgreen;
+             }
+         }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>

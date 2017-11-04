@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建CSS文字样式</title>
+    <style type="text/css">
+        .class1{
+            font-family: "等线 Light";
+            width: 20px;
+            height: 20px;
+        }
+       .class1:hover{
+           width:100px;
+           height:100px;
+           background:red;
+           /*transition-property: height;*/
+           transition-duration: 2s;
+           /*==========不同浏览器的书写=========*/
+           /*-moz-transition-property: width; !* Firefox 4 *!*/
+           /*-moz-transition-duration: 2s; !* Firefox 4 *!*/
+           /*-webkit-transition-property: width; !* Safari and Chrome *!*/
+           /*-webkit-transition-duration: 2s; !* Safari and Chrome *!*/
+           /*-o-transition-property: width; !* Opera *!*/
+           /*-o-transition-duration: 2s; !* Opera *!*/
+           /*=======过度动画=====*/
+           transition-timing-function:ease;
+
+        }
+        *{
+            font-family: "Baskerville Old Face";
+            font-style: inherit;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+<body>
+<p class="class1">测试文字的样式</p>
+<p class="class1" style="font-family: 隶书">测试文字的样式</p>
+<p style="font-variant: small-caps">hello world</p>
+<p style="text-transform:uppercase">hello world</p>
+<em>测试是不是斜体字</em>
+</body>
+</html>
